@@ -43,4 +43,22 @@
 # if x <= 7  → если x меньше или равен 7
 # if x == 7  → если x равен 7
 # if x != 7  → если x не равен 7
-print()
+
+
+num1 = 6104#int(input())
+num2 = 0#int(input())
+opr = '/'#input()
+if opr == '+':
+    print(num1 + num2)
+elif opr == '-':
+    print(num1 - num2)
+elif opr == '*':    
+    print(num1 * num2)
+elif opr == '/':    
+    if num1 != 0 and num2 != 0:
+        print(num1 / num2)
+    else:
+        print('На ноль делить нельзя!')
+else:
+    print('Неверная операция')
+ 
